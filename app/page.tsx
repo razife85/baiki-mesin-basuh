@@ -1,3 +1,27 @@
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Baiki Mesin Basuh Rawang",
+  url: "https://www.baikimesinbasuh.com",
+  telephone: "+60136642601",
+  image: "https://www.baikimesinbasuh.com/images/hero.png",
+  areaServed: [
+    "Rawang",
+    "Sungai Buloh",
+    "Kundang",
+    "Kuang",
+    "Ijok",
+    "Selayang",
+    "Gombak",
+  ],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Rawang",
+    addressRegion: "Selangor",
+    addressCountry: "MY",
+  },
+};
+
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import BrandSlider from "../components/BrandSlider";
@@ -22,6 +46,13 @@ import DarkMode from "../components/DarkMode";
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
+      />
+
       <Navbar />
       <Hero />
       <BrandSlider />
@@ -42,8 +73,6 @@ export default function Home() {
       <FloatingCall />
       <BackToTopProgress />
       <DarkMode />
-
-      
     </>
   );
 }
