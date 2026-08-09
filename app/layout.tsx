@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     "Peti Sejuk Rosak",
   ],
   authors: [{ name: "Razif" }],
+  verification: {
+    google: "Wl8dyJ4ZX3W_Z2yw_fLM03xWTBeklQsKlSkWEmUKUxE",
+  },
 };
 
 export default function RootLayout({
@@ -29,11 +32,8 @@ export default function RootLayout({
   return (
     <html lang="ms" suppressHydrationWarning>
       <body suppressHydrationWarning>
-  <Providers>
-    
-    {children}
-  </Providers>
-</body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
