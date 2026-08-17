@@ -1,37 +1,21 @@
 export default function Brands() {
-  const brands = [
-    "Panasonic",
-    "Samsung",
-    "Sharp",
-    "Hisense",
-    "TCL",
-    "Toshiba",
-    "Midea",
-    "Haier",
-  ];
-
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-4xl mx-auto px-6 text-center">
 
-        <h2 className="text-4xl font-bold text-center text-blue-700 mb-12">
-          Jenama Yang Kami Servis
+        <h2 className="text-4xl font-bold text-blue-700 mb-6">
+          Pelbagai Jenama Kami Servis
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <p className="text-lg text-gray-600 leading-relaxed">
+          Kami menyediakan perkhidmatan pembaikan dan penyelenggaraan
+          mesin basuh serta peti sejuk daripada pelbagai jenama.
+        </p>
 
-          {brands.map((brand, index) => (
-            <div
-              key={index}
-              className="bg-gray-100 rounded-2xl shadow-md p-8 text-center hover:bg-blue-700 hover:text-white duration-300"
-            >
-              <h3 className="text-2xl font-bold">
-                {brand}
-              </h3>
-            </div>
-          ))}
-
-        </div>
+        <p className="text-gray-500 mt-4">
+          Perkhidmatan kami adalah bebas dan tidak bergabung dengan mana-mana
+          pengeluar atau jenama tertentu.
+        </p>
 
       </div>
     </section>
