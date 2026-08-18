@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
     },
     {
       title: "Pelbagai Jenama",
-      desc: "LG, Samsung, Panasonic, Toshiba, Sharp, Hitachi dan lain-lain.",
+      desc: "Berpengalaman membaiki pelbagai jenis dan model mesin basuh serta peti sejuk.",
       icon: "⭐",
     },
   ];

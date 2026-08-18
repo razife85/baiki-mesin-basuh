@@ -51,7 +51,7 @@ export default function Services() {
     {
       icon: <CheckCircle size={45} />,
       title: "Pelbagai Jenama",
-      desc: "LG, Samsung, Panasonic, Sharp, Hitachi dan lain-lain.",
+      desc: "Kami menyediakan servis pembaikan untuk pelbagai jenis mesin basuh dan peti sejuk.",
     },
   ];
 

@@ -15,7 +15,7 @@ export default function Faq() {
     },
     {
       q: "Jenama mesin basuh dan peti sejuk apa yang diterima?",
-      a: "Kami menerima pelbagai jenama seperti Samsung, LG, Panasonic, Sharp, Toshiba, Hitachi, Midea, Haier dan jenama lain.",
+      a: "Kami terima untuk pelbagai jenama mesin basuh dan peti sejuk.",
     },
     {
       q: "Mesin basuh saya tidak boleh hidup. Boleh dibaiki?",
